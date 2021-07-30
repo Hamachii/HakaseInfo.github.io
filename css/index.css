@@ -1,20 +1,12 @@
 .parent{
-  border: 1px solid #aaa;
-  padding: 10px;
-  text-align: center;
-  width: 400px;
+ position: relative;
+ height: 200px;
 }
-.inner{
-   display:inline-block;
-   padding:10px;
-   border: 1px dashed #ccc;
-}
-.tablecell{
-  border: 1px solid #aaa;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  width: 200px;
-  height: 250px;
-  margin: 20px;
+.item{
+ position: absolute;
+ height: 50px;
+ width: 200px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
 }
